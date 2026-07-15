@@ -1,0 +1,2413 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>150 Entrenamientos en Video: Boxeo en Casa Pro</title>
+    <meta name="description" content="150 entrenamientos en video para aprender boxeo desde cero en casa. Evoluciona en 30 días con clases técnicas profesionales directas." />
+
+    <!-- Google Fonts Preconnect and Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="150 Video Workouts: Home Boxing Conditioning Program" />
+    <meta property="og:description" content="Learn boxing at home with 150 structured video classes. Zero equipment required. Access now starting at $5." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1200&auto=format&fit=crop" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+
+    <style>
+      /* DESIGN SYSTEM: VINTAGE & PREMIUM BOXING GYM AESTHETIC */
+      :root {
+        --cream: #faf6ef;
+        --black: #121212;
+        --dark: #161616;
+        --card-dark: #1c1c1c;
+        --yellow: #f2b211;
+        --red: #d71920;
+        --red-dark: #9e1116;
+        --gray: #555555;
+        --gray-light: #a8a8a8;
+        --border: #e3ddd1;
+        --white: #ffffff;
+        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Reset & Base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: var(--cream);
+        color: var(--black);
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.6;
+      }
+
+      h1, h2, h3, h4, .font-display {
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: 0.5px;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Common Section Layouts */
+      .section {
+        padding: clamp(40px, 8vw, 80px) 0;
+        text-align: center;
+      }
+
+      .section-dark {
+        background-color: var(--black);
+        color: var(--cream);
+      }
+
+      .section-light {
+        background-color: var(--cream);
+        color: var(--black);
+      }
+
+      .section-title {
+        font-size: clamp(24px, 5vw, 44px);
+        margin: 15px 0 20px;
+      }
+
+      .section-subtitle {
+        color: var(--gray);
+        max-width: 650px;
+        margin: 0 auto 40px;
+        font-size: clamp(14px, 2vw, 18px);
+      }
+
+      .section-dark .section-subtitle {
+        color: var(--gray-light);
+      }
+
+      .rule {
+        width: 80px;
+        height: 4px;
+        background-color: var(--red);
+        margin: 0 auto 30px;
+      }
+
+      .rule.yellow {
+        background-color: var(--yellow);
+      }
+
+      /* Labels and Badges */
+      .label-green {
+        background-color: var(--yellow);
+        color: var(--black);
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 3px;
+        padding: 6px 14px;
+        display: inline-block;
+        text-transform: uppercase;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: var(--black);
+        color: var(--yellow);
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 8px 16px;
+      }
+
+      /* STICKY BAR */
+      .sticky-bar {
+        background-color: var(--black);
+        color: var(--white);
+        padding: 10px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        font-family: "Oswald", sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      }
+
+      .sticky-tag {
+        color: var(--yellow);
+        font-weight: 700;
+      }
+
+      .sticky-cta {
+        background-color: var(--red);
+        color: var(--white);
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: var(--transition);
+      }
+
+      .sticky-cta:hover {
+        background-color: var(--red-dark);
+      }
+
+      /* LANG SELECTOR NAVBAR */
+      .navbar {
+        background-color: var(--cream);
+        border-bottom: 1px solid var(--border);
+        padding: 15px 0;
+      }
+
+      .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo-text {
+        font-size: 24px;
+        color: var(--black);
+      }
+
+      .logo-text span {
+        color: var(--red);
+      }
+
+      .lang-switchers {
+        display: flex;
+        gap: 8px;
+      }
+
+      .lang-btn {
+        background: var(--white);
+        border: 1px solid var(--border);
+        padding: 6px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        transition: var(--transition);
+      }
+
+      .lang-btn:hover, .lang-btn.active {
+        border-color: var(--black);
+        background-color: var(--black);
+        color: var(--white);
+      }
+
+      /* HERO SECTION */
+      .hero {
+        padding: clamp(30px, 6vw, 60px) 0 40px;
+        text-align: center;
+      }
+
+      .hero-badge {
+        margin-bottom: 20px;
+      }
+
+      .hero h1 {
+        font-size: clamp(28px, 6.5vw, 60px);
+        max-width: 900px;
+        margin: 0 auto 20px;
+        line-height: 1.1;
+      }
+
+      .hero h1 .highlight {
+        background-color: var(--black);
+        color: var(--yellow);
+        padding: 2px 12px;
+        display: inline-block;
+        transform: rotate(-1.5deg);
+        box-shadow: 4px 4px 0 var(--yellow);
+        margin: 5px 0;
+      }
+
+      .hero .sub {
+        color: #333333;
+        font-size: clamp(14px, 2.2vw, 18px);
+        max-width: 620px;
+        margin: 0 auto 25px;
+        line-height: 1.6;
+      }
+
+      .hero-social-proof {
+        display: inline-flex;
+        align-items: center;
+        gap: clamp(6px, 1.5vw, 12px);
+        background-color: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 6px 14px;
+        margin-bottom: 30px;
+        max-width: 90%;
+      }
+
+      .hero-social-proof .avatars {
+        display: flex;
+      }
+
+      .hero-social-proof .avatars img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 2px solid var(--white);
+        margin-left: -8px;
+      }
+
+      .hero-social-proof .avatars img:first-child {
+        margin-left: 0;
+      }
+
+      .hero-social-proof span {
+        font-size: clamp(9.5px, 2.5vw, 11.5px);
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      /* VSL Frame */
+      .hero-vsl {
+        position: relative;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto 35px;
+        padding: clamp(10px, 3vw, 20px);
+        background-color: var(--white);
+        border: 3px solid var(--black);
+        box-shadow: 6px 6px 0 var(--black);
+      }
+
+      .video-placeholder {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        background: linear-gradient(135deg, #1f1f1f 0%, #0d0d0d 100%);
+        cursor: pointer;
+        overflow: hidden;
+      }
+
+      .video-placeholder img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.65;
+        filter: grayscale(30%);
+        transition: var(--transition);
+      }
+
+      .video-placeholder:hover img {
+        transform: scale(1.02);
+        opacity: 0.8;
+      }
+
+      .play-button-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: clamp(60px, 12vw, 80px);
+        height: clamp(60px, 12vw, 80px);
+        border-radius: 50%;
+        background-color: var(--red);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 6px 15px rgba(215, 25, 32, 0.4);
+        transition: var(--transition);
+      }
+
+      .video-placeholder:hover .play-button-overlay {
+        background-color: var(--red-dark);
+        transform: translate(-50%, -50%) scale(1.08);
+      }
+
+      .play-button-overlay svg {
+        fill: var(--white);
+        width: 24px;
+        height: 24px;
+        margin-left: 4px;
+      }
+
+      .simulated-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        background-color: var(--red);
+        width: 45%;
+      }
+
+      .vsl-stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 11px;
+        color: var(--gray);
+        font-weight: 500;
+      }
+
+      .vsl-live {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--red);
+        font-weight: 600;
+      }
+
+      .vsl-live-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: var(--red);
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0% { transform: scale(0.9); opacity: 1; }
+        50% { transform: scale(1.2); opacity: 0.4; }
+        100% { transform: scale(0.9); opacity: 1; }
+      }
+
+      /* Call to Action Buttons */
+      .btn-cta {
+        display: block;
+        width: 100%;
+        max-width: 540px;
+        margin: 0 auto;
+        background-color: var(--red);
+        color: var(--white);
+        border: none;
+        border-bottom: 5px solid var(--red-dark);
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: clamp(16px, 2.5vw, 21px);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 14px 22px;
+        cursor: pointer;
+        transition: var(--transition);
+        box-shadow: 0 4px 12px rgba(215, 25, 32, 0.2);
+      }
+
+      .btn-cta:hover {
+        filter: brightness(1.08);
+        transform: translateY(-2px);
+      }
+
+      .btn-cta:active {
+        transform: translateY(1px);
+        border-bottom-width: 2px;
+      }
+
+      .hero-trust {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 16px;
+        max-width: 560px;
+        margin: 14px auto 0;
+        font-size: clamp(11.5px, 2vw, 13.5px);
+        font-weight: 600;
+        color: #333333;
+      }
+
+      .hero-trust span {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+      }
+
+      /* PAIN POINTS SECTION */
+      .pain-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .pain-item {
+        background-color: #1e1e1e;
+        border: 1px solid #2d2d2d;
+        padding: 15px 20px;
+        border-radius: 8px;
+        font-size: clamp(13px, 2vw, 15px);
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      /* FEATURE GRID (SOLUTION) */
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        margin-top: 35px;
+      }
+
+      .feature-card {
+        background-color: var(--white);
+        border: 2px solid var(--black);
+        border-radius: 12px;
+        padding: 22px;
+        text-align: left;
+        box-shadow: 4px 4px 0 var(--black);
+        transition: var(--transition);
+      }
+
+      .feature-card:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 5px 5px 0 var(--black);
+      }
+
+      .feature-icon {
+        width: 44px;
+        height: 44px;
+        background-color: var(--black);
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 18px;
+      }
+
+      .feature-card h3 {
+        font-size: 17px;
+        margin-bottom: 8px;
+        color: var(--black);
+      }
+
+      .feature-card p {
+        font-size: 13.5px;
+        color: var(--gray);
+        line-height: 1.5;
+      }
+
+      /* INCLUDES SECTION */
+      .include-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .include-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 14px;
+        border-bottom: 1px solid #2c2c2c;
+        font-size: clamp(13px, 2vw, 15px);
+      }
+
+      .include-item:last-child {
+        border-bottom: none;
+      }
+
+      .include-item .check {
+        color: var(--yellow);
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .include-item.premium-only {
+        background: rgba(242, 178, 17, 0.05);
+        border-left: 3px solid var(--yellow);
+        padding-left: 16px;
+      }
+
+      /* TESTIMONIALS SECTION */
+      .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+      }
+
+      .testimonial-card {
+        background-color: var(--white);
+        border: 1px solid var(--border);
+        padding: 24px;
+        border-radius: 12px;
+        text-align: left;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+      }
+
+      .testimonial-card .stars {
+        color: var(--yellow);
+        margin-bottom: 12px;
+        font-size: 16px;
+      }
+
+      .testimonial-card p {
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom: 18px;
+        color: #333333;
+      }
+
+      .testimonial-author {
+        font-weight: 700;
+        font-size: 12px;
+        color: var(--gray);
+        text-transform: uppercase;
+      }
+
+      /* BONUS SECTION */
+      .section-bonus {
+        background-color: #faf6ef;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .bonus-badge {
+        background-color: var(--yellow);
+        color: var(--black);
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding: 8px 20px;
+        display: inline-block;
+        margin-bottom: 15px;
+        box-shadow: 3px 3px 0 var(--black);
+      }
+
+      .bonus-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 850px;
+        margin: 35px auto 0;
+      }
+
+      .bonus-card {
+        background-color: var(--white);
+        border: 2px solid var(--black);
+        border-radius: 12px;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        text-align: left;
+        box-shadow: 5px 5px 0 var(--black);
+      }
+
+      .bonus-img-placeholder {
+        flex-shrink: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #eaeaea;
+        border: 2px dashed #cccccc;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+      }
+
+      .bonus-img-placeholder::after {
+        content: "🎁 Bonus";
+        font-size: 11px;
+        font-weight: 700;
+        color: #888888;
+        margin-top: 4px;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+      }
+
+      .bonus-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .bonus-label {
+        font-family: "Oswald", sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: var(--red);
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+
+      .bonus-info h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: var(--black);
+      }
+
+      .bonus-info ul {
+        list-style: none;
+      }
+
+      .bonus-info ul li {
+        font-size: 13.5px;
+        color: var(--gray);
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      /* PLANS SECTION */
+      .section-plans {
+        padding: 80px 0;
+      }
+
+      .plans-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 25px;
+        margin-top: 35px;
+      }
+
+      .plan-card {
+        background-color: var(--white);
+        border: 2px solid var(--black);
+        border-radius: 14px;
+        padding: 30px 24px;
+        flex: 1;
+        max-width: 420px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        box-shadow: 5px 5px 0 var(--black);
+      }
+
+      .plan-premium {
+        border-color: var(--red);
+        box-shadow: 5px 5px 0 var(--red);
+      }
+
+      .plan-badge-basic {
+        background-color: #eae5db;
+        color: #666;
+        font-family: "Oswald", sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 4px 10px;
+        border-radius: 99px;
+        display: inline-block;
+        margin: 0 auto 15px;
+        text-transform: uppercase;
+      }
+
+      .plan-badge-top {
+        position: absolute;
+        top: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--red);
+        color: var(--white);
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 5px 16px;
+        border-radius: 4px;
+        box-shadow: 0 4px 10px rgba(215, 25, 32, 0.3);
+        text-transform: uppercase;
+      }
+
+      .plan-name {
+        font-family: "Oswald", sans-serif;
+        font-size: 22px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+      }
+
+      .plan-price {
+        margin-bottom: 25px;
+      }
+
+      .price-value {
+        font-family: "Oswald", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1;
+        color: var(--black);
+      }
+
+      .plan-premium .price-value {
+        color: var(--red);
+      }
+
+      .price-note {
+        display: block;
+        font-size: 12px;
+        color: var(--gray);
+        margin-top: 4px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+      .plan-features {
+        list-style: none;
+        text-align: left;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .plan-features li {
+        font-size: 13.5px;
+        color: #333333;
+        line-height: 1.4;
+        display: flex;
+        align-items: flex-start;
+        gap: 6px;
+      }
+
+      .plan-features li.plan-no {
+        color: var(--gray-light);
+        text-decoration: line-through;
+      }
+
+      .plan-features li .only-premium {
+        font-size: 10px;
+        color: var(--red);
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 2px;
+      }
+
+      .btn-plan {
+        width: 100%;
+        background-color: var(--white);
+        border: 2px solid var(--black);
+        border-bottom: 4px solid var(--black);
+        color: var(--black);
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 12px 18px;
+        cursor: pointer;
+        transition: var(--transition);
+        margin-top: auto;
+        text-transform: uppercase;
+      }
+
+      .btn-plan:hover {
+        background-color: #fafafa;
+      }
+
+      .btn-plan-premium {
+        background-color: var(--red);
+        color: var(--white);
+        border-color: var(--red-dark);
+        border-bottom: 4px solid var(--red-dark);
+      }
+
+      .btn-plan-premium:hover {
+        background-color: var(--red-dark);
+      }
+
+      .premium-economy {
+        background: rgba(215, 25, 32, 0.04);
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 11px;
+        color: var(--red);
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .value-anchor {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .value-anchor .highlight {
+        color: var(--red);
+      }
+
+      .plans-urgency {
+        color: var(--red);
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 12px;
+      }
+
+      /* GUARANTEE BOX */
+      .guarantee-box {
+        max-width: 720px;
+        margin: 0 auto;
+        border: 2px solid var(--border);
+        padding: 30px 20px;
+        border-radius: 12px;
+      }
+
+      .guarantee-icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+
+      .guarantee-box h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      .guarantee-box p {
+        color: var(--gray-light);
+        font-size: 14px;
+        max-width: 550px;
+        margin: 0 auto;
+      }
+
+      /* FAQ ACCORDION */
+      .faq-list {
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .faq-item {
+        border-bottom: 1px solid var(--border);
+        padding: 14px 0;
+        cursor: pointer;
+      }
+
+      .faq-item summary {
+        list-style: none;
+        font-weight: 700;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        outline: none;
+        color: var(--black);
+      }
+
+      .faq-item summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .faq-item summary::after {
+        content: "+";
+        font-size: 18px;
+        color: var(--red);
+        font-weight: bold;
+      }
+
+      .faq-item[open] summary::after {
+        content: "−";
+      }
+
+      .faq-item p {
+        padding-top: 8px;
+        font-size: 13.5px;
+        color: var(--gray);
+        line-height: 1.5;
+      }
+
+      /* FINAL CTA */
+      .section-cta-final {
+        background-color: var(--black);
+        color: var(--cream);
+      }
+
+      .section-cta-final .highlight {
+        color: var(--yellow);
+      }
+
+      .section-cta-final .btn-cta {
+        margin-top: 25px;
+        margin-bottom: 15px;
+      }
+
+      /* FOOTER */
+      .footer {
+        background-color: #0d0d0d;
+        color: #777777;
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 11px;
+        border-top: 1px solid #1a1a1a;
+      }
+
+      .footer p {
+        margin-bottom: 8px;
+      }
+
+      .footer-copy {
+        font-weight: 600;
+      }
+
+      .footer-disclaimer {
+        max-width: 600px;
+        margin: 12px auto 0;
+        line-height: 1.4;
+      }
+
+      /* DOWNSELL POPUP OVERLAY */
+      .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        padding: 10px;
+      }
+
+      .popup-box {
+        background-color: var(--white);
+        border: 3px solid var(--black);
+        width: 100%;
+        max-width: 600px;
+        border-radius: 12px;
+        padding: clamp(20px, 4vw, 35px);
+        position: relative;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        max-height: 95vh;
+        overflow-y: auto;
+        animation: popupScale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+
+      @keyframes popupScale {
+        from { transform: scale(0.9); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+
+      .popup-close {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: none;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        color: var(--gray);
+        font-weight: bold;
+      }
+
+      .popup-badge {
+        background-color: var(--red);
+        color: var(--white);
+        font-family: "Oswald", sans-serif;
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        padding: 5px 12px;
+        display: inline-block;
+        margin-bottom: 12px;
+      }
+
+      .popup-headline {
+        font-size: clamp(20px, 3.5vw, 28px);
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
+
+      .popup-headline .highlight {
+        color: var(--red);
+        background-color: #ffebeb;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+
+      .popup-subtitle {
+        color: var(--gray);
+        font-size: 13.5px;
+        margin-bottom: 20px;
+      }
+
+      .popup-offer {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        text-align: left;
+        background: #fbfbfb;
+        border: 1px solid var(--border);
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+
+      .popup-img-placeholder {
+        flex-shrink: 0;
+        width: 90px;
+        height: 90px;
+        background-color: var(--cream);
+        border: 2px dashed var(--yellow);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+      }
+
+      .popup-offer-info {
+        flex: 1;
+      }
+
+      .popup-offer-name {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: var(--black);
+        margin-bottom: 6px;
+      }
+
+      .popup-features {
+        list-style: none;
+        font-size: 12px;
+        color: var(--gray);
+        margin-bottom: 12px;
+      }
+
+      .popup-features li {
+        margin-bottom: 2px;
+      }
+
+      .popup-price-block {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .popup-price-old {
+        font-size: 11px;
+        color: var(--gray-light);
+        text-decoration: line-through;
+      }
+
+      .popup-price-new {
+        font-size: 18px;
+        color: var(--red);
+        font-weight: bold;
+      }
+
+      .popup-price-note {
+        font-size: 10px;
+        color: var(--gray);
+      }
+
+      .btn-popup {
+        width: 100%;
+      }
+
+      .popup-recuse {
+        font-size: 12px;
+        color: var(--gray-light);
+        margin-top: 12px;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      /* RESPONSIVE MEDIA QUERIES */
+      @media (max-width: 768px) {
+        .section {
+          padding: 40px 0;
+        }
+
+        .navbar-container {
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .plans-grid {
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        .plan-card {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .bonus-card {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .bonus-img-placeholder {
+          width: 80px;
+          height: 80px;
+          font-size: 22px;
+        }
+
+        .popup-offer {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .popup-img-placeholder {
+          margin: 0 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- ===== STICKY BAR ===== -->
+    <div class="sticky-bar" id="stickyBar">
+      <span class="sticky-tag">
+        ⚡ <span id="lblExpires">OFFER EXPIRES IN:</span> <span id="stickyTimer">29:58</span>
+      </span>
+      
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <div class="logo-text font-display">
+          BOXING<span>PRO</span>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+      <div class="container">
+        <div class="hero-badge">
+          <span class="badge" id="heroBadge">🥊 BOXING PRO — EXCLUSIVE OFFER TODAY</span>
+        </div>
+        <h1 id="heroTitle">
+          150 VIDEO WORKOUTS TO<br />
+          <span class="highlight">EVOLVE IN BOXING</span><br />
+          AT HOME IN 30 DAYS
+        </h1>
+        <p class="sub" id="heroSub">
+          Practical video classes organized by boxing fundamentals: stance, jab, cross, hook, uppercut, and defensive footwork. For fitness enthusiasts and martial arts lovers — from beginner to advanced.
+        </p>
+
+        <div class="hero-social-proof">
+          <div class="avatars">
+            <img src="https://i.pravatar.cc/36?img=11" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=22" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=33" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=44" alt="avatar" />
+          </div>
+          <span id="heroProof">★★★★★ +2,000 people are already training with this program</span>
+        </div>
+
+        <!-- Mini VSL Placeholder -->
+        <div class="hero-vsl">
+          <div class="video-placeholder" onclick="handleCheckout('premium')">
+            <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1200&auto=format&fit=crop" alt="VSL Thumbnail" />
+            <div class="play-button-overlay">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" fill="white" />
+              </svg>
+            </div>
+            <div class="simulated-bar"></div>
+          </div>
+          <div class="vsl-stats">
+            <div class="vsl-live">
+              <div class="vsl-live-dot"></div>
+              <span id="lblLive">LIVE DEMO VIDEO</span>
+            </div>
+            <span id="lblVol">Volume: 100%</span>
+          </div>
+        </div>
+
+        <a href="#planos" class="btn-cta" id="btnHero">
+          GET INSTANT ACCESS NOW →
+        </a>
+
+        <div class="hero-trust" id="heroTrustRow">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== PROBLEMS ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <h2 class="section-title" id="painTitle">DO YOU TRAIN BUT FEEL LIKE SOMETHING IS MISSING?</h2>
+        <div class="rule yellow"></div>
+        <p class="section-subtitle" id="painBody">
+          Most people spend months throwing punches without any real technique or guidance. Without a method, without progression, and without knowing what you're doing wrong — your workouts become boring, and boredom leads to stagnation.
+        </p>
+        <div class="pain-list" id="painList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOLUÇÃO ===== -->
+    <section class="section section-light">
+      <div class="container">
+        <span class="label-green" id="solLabel">THE SOLUTION</span>
+        <h2 class="section-title" id="solTitle">VIDEO METHOD. DIRECT. NO BS.</h2>
+        <div class="rule"></div>
+        <p class="section-subtitle" id="solBody">
+          150 workouts organized by fundamentals, level, and objective — so you can execute every punch with proper form from day one and progress consistently, at your own pace.
+        </p>
+
+        <div class="feature-grid" id="solGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== O QUE RECEBE ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <span class="label-green" id="includesLabel">WHAT IS INCLUDED</span>
+        <h2 class="section-title" id="includesTitle">ROUND 1 · BOXING PRO</h2>
+        <div class="rule yellow"></div>
+
+        <div class="include-list" id="includesList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== POR QUE FUNCIONA ===== -->
+    <section class="section section-light">
+      <div class="container">
+        <h2 class="section-title" id="whyTitle">WHY DOES THIS PROGRAM HELP SO MUCH?</h2>
+        <div class="rule"></div>
+
+        <div class="feature-grid" id="whyGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <span class="label-green" id="testimonialsLabel">REAL RESULTS</span>
+        <h2 class="section-title" id="testimonialsTitle">WHAT THEY SAY ABOUT THE PROGRAM</h2>
+        <div class="rule yellow"></div>
+
+        <div class="testimonial-grid" id="testimonialsGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BÔNUS ===== -->
+    <section class="section section-bonus">
+      <div class="container">
+        <span class="bonus-badge" id="bonusBadge">🎁 SPECIAL BONUSES INCLUDED — TODAY ONLY</span>
+        <h2 class="section-title" id="bonusTitle">EXCLUSIVE FREE BONUSES</h2>
+        <p class="section-subtitle" id="bonusSubtitle">Total value: $49 — today included at no extra cost</p>
+
+        <div class="bonus-grid" id="bonusGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PLANOS ===== -->
+    <section class="section section-plans" id="planos">
+      <div class="container">
+        <span class="label-green" id="plansLabel">SECURE YOUR ACCESS</span>
+        <h2 class="section-title" id="plansTitle">CHOOSE YOUR PLAN — PAY ONCE, KEEP FOREVER</h2>
+        <p class="section-subtitle" id="plansSubtitle">One-time payment. No subscriptions. No renewals.</p>
+
+        <div class="plans-grid">
+          <!-- PLAN BÁSICO -->
+          <div class="plan-card plan-basic">
+            <span class="plan-badge-basic" id="plansBasicBadge">To try it out</span>
+            <div class="plan-name" id="plansBasicName">BASIC PLAN</div>
+            <div class="plan-price">
+              <span class="price-value" id="plansBasicPrice">$5</span>
+              <span class="price-note" id="plansBasicNote">one-time payment</span>
+            </div>
+            <ul class="plan-features" id="plansBasicFeatures">
+              <!-- Populated by JS -->
+            </ul>
+            <button class="btn-plan" onclick="handleCheckout('basic')" id="btnPlansBasic">
+              START WITH BASIC (12 MONTHS)
+            </button>
+          </div>
+
+          <!-- PLAN PREMIUM -->
+          <div class="plan-card plan-premium">
+            <span class="plan-badge-top" id="plansPremiumBadge">⭐ MOST POPULAR</span>
+            <div class="plan-name" id="plansPremiumName">PREMIUM PLAN</div>
+            <div class="plan-price">
+              <span class="price-value" id="plansPremiumPrice">$15</span>
+              <span class="price-note" id="plansPremiumNote">one-time payment</span>
+            </div>
+            <ul class="plan-features" id="plansPremiumFeatures">
+              <!-- Populated by JS -->
+            </ul>
+            <div class="premium-economy" id="lblPremiumEconomy">
+              💡 Save more by securing lifetime access today
+            </div>
+            <button class="btn-plan btn-plan-premium" onclick="handleCheckout('premium')" id="btnPlansPremium">
+              GET PREMIUM — LIFETIME FOR $15 →
+            </button>
+          </div>
+        </div>
+
+        <div class="value-anchor" id="plansAnchor">
+          Basic gives 12 months access. Premium gives lifetime access — for just $10 more.
+        </div>
+
+        <p class="plans-urgency" id="plansUrgency">⚠️ Offer valid for this session only. If you leave, lifetime pricing might return to standard.</p>
+      </div>
+    </section>
+
+    <!-- ===== GARANTIA ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="guarantee-box">
+          <div class="guarantee-icon">🛡️</div>
+          <h2 id="guaranteeTitle">7-DAY RISK-FREE GUARANTEE</h2>
+          <p id="guaranteeBody">If within 7 days you decide this program isn't for you, we will refund 100% of your money. No questions asked. No bureaucracy. Zero risk for you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-light">
+      <div class="container">
+        <h2 class="section-title" id="faqTitle">FREQUENTLY ASKED QUESTIONS</h2>
+        <div class="rule"></div>
+
+        <div class="faq-list" id="faqList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="section section-cta-final">
+      <div class="container">
+        <h2 class="section-title" id="ctaFinalTitle">WILL YOU KEEP GUESSING OR START TRAINING WITH A METHOD?</h2>
+        <div class="rule yellow"></div>
+        <p class="section-subtitle">
+          <span id="ctaFinalBody">150 video workouts. 3 bonuses. Immediate access. 7-day guarantee.</span><br />
+          <span class="highlight" id="ctaFinalBodyEnd">All of this starting at just $5.</span>
+        </p>
+        <button class="btn-cta" onclick="handleCheckout('premium')" id="btnCtaFinal">
+          GET STARTED NOW →
+        </button>
+        <div class="hero-trust">
+          <span id="lblTrust1">🔒 Secure Checkout</span>
+          <span id="lblTrust2">📱 Instant Access</span>
+          <span id="lblTrust3">🛡️ 7-Day Refund</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p>★ BOXING PRO — THE SWEET SCIENCE AT HOME ★</p>
+      <p class="footer-copy">© 2026 Boxing Pro. All rights reserved.</p>
+      <p class="footer-disclaimer" id="lblFooterDisclaimer">
+        This product is digital and delivered via email. Results may vary depending on individual commitment and practice.
+      </p>
+    </footer>
+
+    <!-- ===== POPUP DOWNSELL ===== -->
+    <div class="popup-overlay" id="popupDownsell" style="display: none;">
+      <div class="popup-box">
+        <button class="popup-close" onclick="closePopup()">✕</button>
+        <div class="popup-badge" id="popupBadge">⚡ WAIT — READ THIS BEFORE YOU GO</div>
+        <h2 class="popup-headline">
+          <span id="popupTitle">Are you letting</span> <span class="highlight" id="popupHighlight">$10 stop you</span> <span id="popupTitleEnd">from getting lifetime access?</span>
+        </h2>
+        <p class="popup-subtitle" id="popupSubtitle">Choosing Premium saves you from paying for a renewal 12 months from now.</p>
+
+        <div class="popup-offer">
+          <div class="popup-img-placeholder">🏆</div>
+          <div class="popup-offer-info">
+            <p class="popup-offer-name" id="popupOfferName">🏆 COMPLETE PREMIUM PLAN</p>
+            <ul class="popup-features" id="popupFeatures">
+              <!-- Populated by JS -->
+            </ul>
+            <div class="popup-price-block">
+              <span class="popup-price-old" id="popupOldPrice">Regular Price: $15</span>
+              <span class="popup-price-new" id="popupNewPrice">Today Only: $9.90</span>
+              <span class="popup-price-note" id="popupPriceNote">one-time payment — available right now</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-cta btn-popup" onclick="handleCheckout('downsell')" id="btnPopup">
+          YES! UPGRADE TO PREMIUM FOR $9.90 →
+        </button>
+        <p class="popup-recuse" onclick="handleCheckout('basic-confirmed')" id="popupRecuse">
+          No, I'd rather keep Basic for $5
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== LOCALIZATION AND DATA JS ===== -->
+    <script>
+      // EMBEDDED LOCALE DATA TO AVOID CORS ERRORS ON file:// PROTOCOL
+      const translations = {
+        en: {
+          hero: {
+            badge: "🥊 BOXING PRO — EXCLUSIVE OFFER TODAY",
+            title: "150 VIDEO WORKOUTS TO<br /><span class=\"highlight\">EVOLVE IN BOXING</span><br />AT HOME IN 30 DAYS",
+            sub: "Practical video classes organized by boxing fundamentals: stance, jab, cross, hook, uppercut, and defensive footwork. For fitness enthusiasts and martial arts lovers — from beginner to advanced.",
+            proof: "★★★★★ +2,000 people are already training with this program",
+            btn: "GET INSTANT ACCESS NOW →",
+            trust_row: [
+              "🔒 100% Secure Purchase",
+              "📱 Mobile Access",
+              "♾️ Lifetime Access",
+              "✅ 7-Day Money-Back Guarantee"
+            ],
+            badge_casa: "🏠 BOXING PRO — HOME WORKOUT EDITION",
+            title_casa: "150 BOXING WORKOUTS<br /><span class=\"highlight\">TO DO AT HOME</span><br />WITHOUT GYM OR EQUIPMENT",
+            sub_casa: "Learn boxing from scratch in the comfort of your home. Video classes organized by fundamentals — stance, punches, evasions, and footwork. Train on your own schedule, at your own pace.",
+            proof_casa: "★★★★★ +2,000 people already train boxing at home with these videos"
+          },
+          pain: {
+            title: "DO YOU TRAIN BUT FEEL LIKE SOMETHING IS MISSING?",
+            body: "Most people spend months throwing punches without any real technique or guidance. Without a method, without progression, and without knowing what you're doing wrong — your workouts become boring, and boredom leads to stagnation.",
+            items: [
+              "❌ Workouts without structure or any defined progression",
+              "❌ Executing punches incorrectly due to lack of a clear visual reference",
+              "❌ Cardiovascular conditioning that doesn't feel like a real fighter's workout",
+              "❌ No guidance from professional coaches who actually understand boxing"
+            ],
+            title_casa: "WANT TO TRAIN AT HOME BUT DON'T KNOW WHERE TO START?",
+            body_casa: "Many people want to learn boxing but don't have a gym nearby, don't have time for fixed class schedules, or simply prefer to train at home — and end up lost, not knowing how to start without a coach in front of them.",
+            items_casa: [
+              "❌ Want to learn boxing but there is no gym close to you",
+              "❌ No fixed schedules available for in-person training",
+              "❌ Afraid of learning with bad habits without visual guidance",
+              "❌ Don't know if you need expensive equipment to start at home"
+            ]
+          },
+          solution: {
+            label: "THE SOLUTION",
+            title: "VIDEO METHOD. DIRECT. NO BS.",
+            body: "150 workouts organized by fundamentals, level, and objective — so you can execute every punch with proper form from day one and progress consistently, at your own pace.",
+            features: [
+              {
+                icon: "🎥",
+                title: "150 Video Classes",
+                desc: "Stance, jab, cross, hooks, uppercuts, and footwork. Every single punch explained with real technical detail."
+              },
+              {
+                icon: "📶",
+                title: "All Fitness Levels",
+                desc: "From absolute beginner to advanced. Start where you are and progress without skipping essential steps."
+              },
+              {
+                icon: "📱",
+                title: "100% Digital Access",
+                desc: "Watch on your phone, tablet, or computer — anytime, anywhere. You can even download videos to watch offline."
+              },
+              {
+                icon: "🏆",
+                title: "Professional Material",
+                desc: "Workouts structured by coaches who train and teach real boxing, not just fitness enthusiasts."
+              }
+            ],
+            title_casa: "BOXING GYM AT HOME. ON YOUR SCHEDULE. NO MONTHLY FEES.",
+            body_casa: "150 video classes for you to train boxing wherever and whenever you want — without needing a gym, without fixed schedules, and with zero equipment to get started.",
+            features_casa: [
+              {
+                icon: "🏠",
+                title: "100% Home Training",
+                desc: "Living room, backyard, garage — any small space works. Most workouts require zero equipment."
+              },
+              {
+                icon: "⏰",
+                title: "Your Time, Your Rules",
+                desc: "Wake up early, train at night, or during lunch — you choose. No gym schedules or commuting."
+              },
+              {
+                icon: "📱",
+                title: "Phone or TV Screen",
+                desc: "Place your screen in front of you and execute the movements. Pause, rewind, and repeat like a private lesson."
+              },
+              {
+                icon: "📶",
+                title: "Zero to Hero",
+                desc: "Started with no experience? Perfect. The program starts with the basic guard stance and progresses step-by-step."
+              }
+            ]
+          },
+          includes: {
+            label: "WHAT IS INCLUDED",
+            title: "ROUND 1 · BOXING PRO",
+            items: [
+              "✔ 100 complete training videos — technique, conditioning, and footwork organized for progressive evolution (Basic Plan)",
+              "✔ +50 exclusive videos — advanced combos, counter-punches, and sparring strategies (Premium Only)",
+              "✔ Organization by level, goal, and technique — know exactly what to watch in each phase",
+              "✔ Immediate access after purchase — no waiting, no queues",
+              "✔ Lifetime access — no monthly fees, no renewals. Pay once, keep it forever (Premium Only)"
+            ]
+          },
+          why: {
+            title: "WHY DOES THIS PROGRAM HELP SO MUCH?",
+            items: [
+              {
+                icon: "⚡",
+                title: "Ready-to-Apply Classes",
+                desc: "No boring theory. We show the punch, correct common mistakes, and repeat it so you can copy the exact form."
+              },
+              {
+                icon: "📈",
+                title: "3x Faster Progress",
+                desc: "Training with a structured method gets you results 3 times faster than guessing workouts on your own."
+              },
+              {
+                icon: "🗂️",
+                title: "Structured Progression",
+                desc: "Every video has a purpose. No useless repetition, no technical gaps — real progress, step-by-step."
+              },
+              {
+                icon: "🎯",
+                title: "Professional Organization",
+                desc: "Fundamentals come first, then advanced drills. Cardio and technique are perfectly integrated."
+              }
+            ]
+          },
+          testimonials: {
+            label: "REAL RESULTS",
+            title: "WHAT THEY SAY ABOUT THE PROGRAM",
+            items: [
+              {
+                stars: "★★★★★",
+                text: "\"I started from zero. In 3 weeks I was already throwing boxing combinations like a pro. The technique detail is serious.\"",
+                author: "— Robert M., Miami, FL"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"I use these videos for my daily workouts at home. The organization by technique made it incredibly easy to follow and keep up the intensity.\"",
+                author: "— David T., Austin, TX"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"My coordination and cardio improved visibly in 30 days. It's the best workout I've done at home. Very addicting!\"",
+                author: "— Sarah A., Denver, CO"
+              }
+            ],
+            title_casa: "WHAT THEY SAY ABOUT TRAINING AT HOME WITH US",
+            items_casa: [
+              {
+                stars: "★★★★★",
+                text: "\"I live far from any boxing gym. With these videos I learned the stance and punches right from my living room, and now I train daily.\"",
+                author: "— Lucas F., Billings, MT"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"I'm a busy mom and don't have time for the gym. I train for 30 minutes in my room while my baby sleeps. The conditioning is amazing.\"",
+                author: "— Lisa R., Los Angeles, CA"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"Started with zero gear, just on a rug in my room. The videos are super clear and you can pause to check your posture. Highly recommend!\"",
+                author: "— Dan S., Chicago, IL"
+              }
+            ]
+          },
+          bonus: {
+            badge: "🎁 SPECIAL BONUSES INCLUDED — TODAY ONLY",
+            title: "EXCLUSIVE FREE BONUSES",
+            subtitle: "Total value: $49 — today included at no extra cost",
+            items: [
+              {
+                label: "BONUS 1 — $15 VALUE • FREE",
+                title: "Defensive Mastery & Evasions Video Course",
+                bullets: [
+                  "✔ Step-by-step video drills: slips, rolls, blocks, and ducks",
+                  "✔ Video analysis: how to make opponents miss and pay",
+                  "✔ Video demonstrations: techniques used by pros"
+                ]
+              },
+              {
+                label: "BONUS 2 — $19 VALUE • FREE",
+                title: "Fighter Conditioning & Jump Rope Video Course",
+                bullets: [
+                  "✔ Follow-along video workouts: endurance routines",
+                  "✔ Video routines: specific dynamic warmups and stretching",
+                  "✔ Video tutorials: complete jump rope footwork secrets"
+                ]
+              },
+              {
+                label: "BONUS 3 — $15 VALUE • FREE",
+                title: "Ultimate Fighter Nutrition & Cutting Video Masterclass",
+                bullets: [
+                  "✔ Video breakdown: clean eating plans to get lean & shredded",
+                  "✔ Video guide: fighter hydration & weight management",
+                  "✔ Video recipes: healthy meal prep without starving"
+                ]
+              }
+            ]
+          },
+          plans: {
+            label: "SECURE YOUR ACCESS",
+            title: "CHOOSE YOUR PLAN — PAY ONCE, KEEP FOREVER",
+            subtitle: "One-time payment. No subscriptions. No renewals.",
+            basic: {
+              badge: "To try it out",
+              name: "BASIC PLAN",
+              price: "$5",
+              note: "one-time payment",
+              features: [
+                "✔ 100 training video lessons",
+                "✔ Access for 12 months",
+                "✔ For beginners and intermediates",
+                "<span>❌ Bonus 1: Defensive Video Course</span>",
+                "<span>❌ Bonus 2: Jump Rope Video Course</span>",
+                "<span>❌ Bonus 3: Nutrition Video Masterclass</span>",
+                "<span>❌ 150 complete video lessons</span>",
+                "<span>❌ Advanced sparring/counter drills</span>",
+                "<span>❌ Lifetime access (no expiration)</span>"
+              ],
+              btn: "START WITH BASIC (12 MONTHS)"
+            },
+            premium: {
+              badge: "⭐ MOST POPULAR",
+              name: "PREMIUM PLAN",
+              price: "$15",
+              note: "one-time payment",
+              features: [
+                "✔ 150 video lessons (50 more than Basic)",
+                "✔ Organization by level, goal, and technique",
+                "✔ <strong>LIFETIME ACCESS — pay once, watch forever</strong>",
+                "✔ For all levels — beginner to advanced",
+                "✔ Bonus 1: Defensive Video Course",
+                "✔ Bonus 2: Jump Rope Video Course",
+                "✔ Bonus 3: Nutrition Video Masterclass",
+                "✔ <strong>+50 exclusive videos: counter-punching, sparring tactics, ring generalship</strong>",
+                "✔ Priority email support — answers within 24h"
+              ],
+              btn: "GET PREMIUM — LIFETIME FOR $15 →"
+            },
+            anchor: "Basic gives 12 months access. Premium gives lifetime access — for just $10 more.",
+            urgency: "⚠️ Offer valid for this session only. If you leave, lifetime pricing might return to standard."
+          },
+          guarantee: {
+            title: "7-DAY RISK-FREE GUARANTEE",
+            body: "If within 7 days you decide this program isn't for you, we will refund 100% of your money. No questions asked. No bureaucracy. Zero risk for you."
+          },
+          faq: {
+            title: "FREQUENTLY ASKED QUESTIONS",
+            items: [
+              {
+                q: "Is it lifetime access?",
+                a: "Yes! In the Premium Plan, you pay once and have access forever, with no monthly fees. The Basic Plan grants access for 12 months."
+              },
+              {
+                q: "How do I receive the program?",
+                a: "Immediately after payment is approved, your access link is sent via email. Click it and start training in under 5 minutes!"
+              },
+              {
+                q: "Is it suitable for beginners?",
+                a: "Absolutely. The program starts from the very basics (stance, guard, moving) and builds up step-by-step so you don't form bad habits."
+              },
+              {
+                q: "Do I need any gym equipment?",
+                a: "No! Most workouts are designed to be done with zero equipment (shadowboxing). As you progress, we explain how to incorporate gloves or a heavy bag if you want to."
+              },
+              {
+                q: "Can I watch it on my phone?",
+                a: "Yes, it is 100% mobile-friendly. You can watch it on any smartphone, tablet, computer, or stream it to your Smart TV."
+              },
+              {
+                q: "How does the refund work?",
+                a: "We have a 7-day unconditional guarantee. Just email us within 7 days of purchase and we will issue a full refund immediately."
+              },
+              {
+                q: "How much space do I need at home?",
+                a: "Very little. An area of 6x6 feet (2x2 meters) is more than enough to practice stance, footwork, and punches."
+              }
+            ]
+          },
+          cta_final: {
+            title: "WILL YOU KEEP GUESSING OR START TRAINING WITH A METHOD?",
+            body: "150 video workouts. 3 bonuses. Immediate access. 7-day guarantee.",
+            body_end: "All of this starting at just $5.",
+            btn: "GET STARTED NOW →"
+          },
+          downsell: {
+            badge: "⚡ WAIT — READ THIS BEFORE YOU GO",
+            title: "Are you letting",
+            highlight: "$10 stop you",
+            title_end: "from getting lifetime access?",
+            subtitle: "Choosing Premium saves you from paying for a renewal 12 months from now.",
+            name: "🏆 COMPLETE PREMIUM PLAN",
+            features: [
+              "✔ 150 video lessons (vs 100 in Basic)",
+              "✔ Structured level & technique layout",
+              "✔ Lifetime access (no monthly fees/expirations)",
+              "✔ +50 exclusive advanced combat videos",
+              "✔ All 3 bonuses included"
+            ],
+            old_price: "Regular Price: $15",
+            new_price: "Today Only: $9.90",
+            note: "one-time payment — available right now",
+            btn: "YES! UPGRADE TO PREMIUM FOR $9.90 →",
+            recuse: "No, I'd rather keep Basic for $5"
+          }
+        },
+        es: {
+          hero: {
+            badge: "🥊 BOXEO PRO — OFERTA EXCLUSIVA HOY",
+            title: "150 ENTRENAMIENTOS EN VIDEO PARA<br /><span class=\"highlight\">EVOLUCIONAR EN EL BOXEO</span><br />EN CASA EN 30 DÍAS",
+            sub: "Clases prácticas en video organizadas por fundamentos del boxeo: guardia, jab, cruzado, gancho, uppercut y esquivas. Para apasionados del fitness y las artes marciales — de principiante a avanzado.",
+            proof: "★★★★★ +2,000 personas ya están entrenando con este programa",
+            btn: "GARANTIZAR ACCESO INMEDIATO →",
+            trust_row: [
+              "🔒 Compra 100% Segura",
+              "📱 Acceso en el Celular",
+              "♾️ Acceso de por Vida",
+              "✅ Garantía de 7 Días"
+            ],
+            badge_casa: "🏠 BOXEO PRO — EDICIÓN ENTRENAMIENTO EN CASA",
+            title_casa: "150 ENTRENAMIENTOS DE BOXEO<br /><span class=\"highlight\">PARA HACER EN CASA</span><br />SIN GIMNASIO NI EQUIPOS",
+            sub_casa: "Aprende boxeo desde cero en la comodidad de tu hogar. Clases en video organizadas por fundamentos — guardia, golpes, esquivas y juego de piernas. Entrena a tu ritmo, sin depender de un gimnasio.",
+            proof_casa: "★★★★★ +2,000 personas ya entrenan boxeo en casa con estos videos"
+          },
+          pain: {
+            title: "¿ENTRENAS PERO SIENTES QUE FALTA ALGO?",
+            body: "La mayoría de las personas pasan meses lanzando golpes sin técnica ni dirección real. Sin método, sin progresión y sin saber qué estás haciendo mal: tu entrenamiento se vuelve aburrido y el aburrimiento lleva al estancamiento.",
+            items: [
+              "❌ Entrenamientos sin estructura ni progresión definida",
+              "❌ Golpes ejecutados de forma incorrecta por falta de referencia visual clara",
+              "❌ Acondicionamiento cardiovascular que no simula una pelea real",
+              "❌ Sin la guía de entrenadores profesionales que entiendan de boxeo"
+            ],
+            title_casa: "¿QUIERES ENTRENAR EN CASA PERO NO SABES CÓMO EMPEZAR?",
+            body_casa: "Muchas personas quieren aprender boxeo pero no tienen un gimnasio cerca, no tienen horarios fijos libres o simplemente prefieren entrenar en casa — y se quedan estancados sin saber cómo empezar sin un profesor enfrente.",
+            items_casa: [
+              "❌ Quieres aprender boxeo pero no hay gimnasios cerca de tu casa",
+              "❌ Sin horarios disponibles para asistir a clases presenciales",
+              "❌ Miedo de aprender con malos hábitos al no tener guía visual",
+              "❌ No sabes si necesitas equipos caros para empezar en casa"
+            ]
+          },
+          solution: {
+            label: "LA SOLUCIÓN",
+            title: "MÉTODO EN VIDEO. DIRECTO. SIN RODEOS.",
+            body: "150 entrenamientos organizados por fundamentos, nivel y objetivo — para que ejecutes cada golpe con la técnica correcta desde el primer día y evoluciones de forma consistente, a tu propio ritmo.",
+            features: [
+              {
+                icon: "🎥",
+                title: "150 Clases en Video",
+                desc: "Guardia, jab, cruzado, ganchos, uppercuts y juego de piernas. Cada golpe explicado al detalle técnico real."
+              },
+              {
+                icon: "📶",
+                title: "Todos los Niveles",
+                desc: "Desde principiante absoluto hasta avanzado. Empieza donde estés y avanza sin saltar etapas."
+              },
+              {
+                icon: "📱",
+                title: "Acceso 100% Digital",
+                desc: "Mira en tu celular, tablet o computadora — donde y cuando quieras. Descarga videos para ver sin conexión."
+              },
+              {
+                icon: "🏆",
+                title: "Material Profesional",
+                desc: "Entrenamientos estruturados por entrenadores que enseñan boxeo real, no por simples entusiastas."
+              }
+            ],
+            title_casa: "GIMNASIO EN CASA. A TU RITMO. SIN MENSUALIDADES.",
+            body_casa: "150 clases en video para entrenar boxeo donde y cuando quieras — sin necesidad de gimnasio, sin horarios fijos y con cero equipos para empezar.",
+            features_casa: [
+              {
+                icon: "🏠",
+                title: "Entrenamiento en Casa",
+                desc: "Sala, patio, garaje: cualquier espacio sirve. La mayoría de entrenamientos no requieren equipo."
+              },
+              {
+                icon: "⏰",
+                title: "Tu Tiempo, Tus Reglas",
+                desc: "Despierta temprano, entrena de noche o en el almuerzo. Tú eliges. Sin depender de horarios de clases."
+              },
+              {
+                icon: "📱",
+                title: "Pantalla de Celular o TV",
+                desc: "Coloca tu pantalla enfrente y ejecuta los movimientos. Pausa, retrocede y repite como en una clase privada."
+              },
+              {
+                icon: "📶",
+                title: "Desde Cero Absoluto",
+                desc: "¿Empezando sin experiencia? Perfecto. El programa inicia con la guardia básica y progresa paso a paso."
+              }
+            ]
+          },
+          includes: {
+            label: "QUÉ ESTÁ INCLUIDO",
+            title: "ROUND 1 · BOXEO PRO",
+            items: [
+              "✔ 100 videos completos de entrenamiento: técnica, cardio y juego de piernas organizados para progresar (Plan Básico)",
+              "✔ +50 videos exclusivos: combinaciones avanzadas, contraataques y tácticas de sparring (Solo en Premium)",
+              "✔ Organización por nivel, objetivo y técnica — sabrás exactamente qué ver en cada fase",
+              "✔ Acceso inmediato después del pago — sin esperas ni filas",
+              "✔ Acceso de por vida: sin mensualidades ni renovaciones. Paga una vez, accede para siempre (Solo en Premium)"
+            ]
+          },
+          why: {
+            title: "¿POR QUÉ ESTE PROGRAMA AYUDA TANTO?",
+            items: [
+              {
+                icon: "⚡",
+                title: "Clases Listas para Aplicar",
+                desc: "Nada de teoría aburrida. Mostramos el golpe, corregimos errores y lo repetimos en cámara para que copies la forma exacta."
+              },
+              {
+                icon: "📈",
+                title: "Progreso 3x más Rápido",
+                desc: "Entrenar con un método estruturado te da resultados 3 veces más rápido que adivinar rutinas por tu cuenta."
+              },
+              {
+                icon: "🗂️",
+                title: "Progresión Estructurada",
+                desc: "Cada video tiene un propósito. Sin repeticiones inútiles ni vacíos técnicos: progreso real, paso a paso."
+              },
+              {
+                icon: "🎯",
+                title: "Organización Profesional",
+                desc: "Primero los fundamentos, luego los ejercicios avanzados. El cardio y la técnica están perfectamente integrados."
+              }
+            ]
+          },
+          testimonials: {
+            label: "RESULTADOS REALES",
+            title: "LO QUE DICEN SOBRE EL PROGRAMA",
+            items: [
+              {
+                stars: "★★★★★",
+                text: "\"Empecé desde cero. En 3 semanas ya estaba lanzando combinaciones de boxeo como un profesional. El nivel de detalle es increíble.\"",
+                author: "— Roberto M., Ciudad de México"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"Uso estos videos para mis entrenamientos diarios en casa. La organización por técnica hace que sea facilísimo seguir el ritmo y la intensidad.\"",
+                author: "— Mateo G., Buenos Aires"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"Mi coordinación y cardio mejoraron visiblemente en 30 días. Es el mejor entrenamiento que he hecho en casa. ¡Es adictivo!\"",
+                author: "— Valeria R., Bogotá"
+              }
+            ],
+            title_casa: "LO QUE DICEN DE ENTRENAR EN CASA CON NOSOTROS",
+            items_casa: [
+              {
+                stars: "★★★★★",
+                text: "\"Vivo lejos de cualquier gimnasio de boxeo. Con estos videos aprendí la guardia y los golpes en la sala de mi casa y hoy entreno a diario.\"",
+                author: "— Carlos F., Monterrey"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"Soy madre y no tengo tiempo de ir al gimnasio. Entreno 30 minutos en mi cuarto mientras mi bebé duerme. El cardio es fantástico.\"",
+                author: "— María R., Medellín"
+              },
+              {
+                stars: "★★★★★",
+                text: "\"Empecé sin nada de equipo, en una alfombra en mi cuarto. Los videos son súper claros y puedes pausar para corregir la postura. ¡Recomendado!\"",
+                author: "— Alejandro S., Madrid"
+              }
+            ]
+          },
+          bonus: {
+            badge: "🎁 BONOS ESPECIALES INCLUIDOS — SOLO HOY",
+            title: "BONOS GRATUITOS EXCLUSIVOS",
+            subtitle: "Valor total: $49 — hoy incluidos sin costo adicional",
+            items: [
+              {
+                label: "BONO 1 — VALORADO EN $15 • GRATIS",
+                title: "Curso en Video de Defensa y Esquivas de Boxeo",
+                bullets: [
+                  "✔ Clases en video paso a paso: esquivas, cabeceos y bloqueos",
+                  "✔ Tácticas en video: cómo hacer fallar y contraatacar",
+                  "✔ Demostraciones en video: técnicas de profesionales"
+                ]
+              },
+              {
+                label: "BONO 2 — VALORADO EN $19 • GRATIS",
+                title: "Curso en Video de Acondicionamiento y Salto de Cuerda",
+                bullets: [
+                  "✔ Video clases: rutinas de resistencia para rounds de campeonato",
+                  "✔ Rutinas en video: calentamientos y estiramiento dinámico",
+                  "✔ Video tutoriales: secretos para dominar la cuerda"
+                ]
+              },
+              {
+                label: "BONO 3 — VALORADO EN $15 • GRATIS",
+                title: "Video Masterclass de Nutrición y Definición de Combate",
+                bullets: [
+                  "✔ Explicación en video: menús para quemar grasa y marcar",
+                  "✔ Video guía: hidratación y control de peso",
+                  "✔ Video recetas: preparación de comidas saludables"
+                ]
+              }
+            ]
+          },
+          plans: {
+            label: "ASEGURA TU ACCESO",
+            title: "ELIGE TU ACCESO — PAGA UNA VEZ, ÚSALO PARA SIEMPRE",
+            subtitle: "Pago único. Sin suscripciones. Sin renovaciones.",
+            basic: {
+              badge: "Para probar el método",
+              name: "PLAN BÁSICO",
+              price: "$5",
+              note: "pago único",
+              features: [
+                "✔ 100 clases de entrenamiento en video",
+                "✔ Acceso durante 12 meses",
+                "✔ Para principiantes e intermedios",
+                "<span>❌ Bono 1: Curso en Video de Defensa</span>",
+                "<span>❌ Bono 2: Curso en Video de Cuerda</span>",
+                "<span>❌ Bono 3: Video Masterclass de Nutrición</span>",
+                "<span>❌ 150 clases completas en video</span>",
+                "<span>❌ Ejercicios avanzados de sparring</span>",
+                "<span>❌ Acceso de por vida (sin expiración)</span>"
+              ],
+              btn: "EMPEZAR CON EL BÁSICO (12 MESES)"
+            },
+            premium: {
+              badge: "⭐ EL MÁS ELEGIDO",
+              name: "PLAN PREMIUM",
+              price: "$15",
+              note: "pago único",
+              features: [
+                "✔ 150 clases en video (50 más que el Básico)",
+                "✔ Organización por nivel, objetivo y técnica",
+                "✔ <strong>ACCESO DE POR VIDA — paga una vez, míralo siempre</strong>",
+                "✔ Para todos los niveles — principiante a avanzado",
+                "✔ Bono 1: Curso en Video de Defensa",
+                "✔ Bono 2: Curso en Video de Cuerda",
+                "✔ Bono 3: Video Masterclass de Nutrición",
+                "✔ <strong>+50 videos exclusivos: tácticas de contraataque y sparring</strong>",
+                "✔ Soporte prioritario por correo — respuestas en < 24h"
+              ],
+              btn: "QUIERO EL PREMIUM — ACCESO VITALICIO POR $15 →"
+            },
+            anchor: "El Básico te da 12 meses de acceso. El Premium te da acceso de por vida — por solo $10 más.",
+            urgency: "⚠️ Oferta válida solo para esta sesión. Si sales de la página, el precio vitalicio puede cambiar."
+          },
+          guarantee: {
+            title: "GARANTÍA RIESGO CERO DE 7 DÍAS",
+            body: "Si en un plazo de 7 días decides que este programa no es para ti, te devolvemos el 100% de tu dinero. Sin preguntas. Sin burocracia. Cero riesgo para ti."
+          },
+          faq: {
+            title: "PREGUNTAS FRECUENTES",
+            items: [
+              {
+                q: "¿Es acceso de por vida?",
+                a: "¡Sí! En el Plan Premium pagas una sola vez y tienes acceso para siempre, sin cuotas mensuales. El Plan Básico da acceso por 12 meses."
+              },
+              {
+                q: "¿Cómo recibo el material?",
+                a: "Inmediatamente después de que se apruebe el pago, se envía tu enlace de acceso por correo. ¡Haz clic y entrena en menos de 5 minutos!"
+              },
+              {
+                q: "¿Sirve para principiantes?",
+                a: "Totalmente. El programa empieza desde lo más básico (guardia, pasos, golpes simples) y avanza paso a paso para que no crees malos hábitos."
+              },
+              {
+                q: "¿Necesito equipos de gimnasio?",
+                a: "¡No! La mayoría de los entrenamientos están diseñados para hacerse sin equipo (sombra/shadowboxing). Conforme avanzas, te explicamos cómo incorporar guantes o saco si quieres."
+              },
+              {
+                q: "¿Puedo verlo en mi celular?",
+                a: "Sí, es 100% compatible con móviles. Puedes verlo en cualquier smartphone, tablet, computadora o transmitirlo a tu Smart TV."
+              },
+              {
+                q: "¿Cómo funciona el reembolso?",
+                a: "Tenemos una garantía incondicional de 7 días. Solo envíanos un correo en ese plazo y te emitiremos un reembolso completo de inmediato."
+              },
+              {
+                q: "¿Cuánto espacio necesito en casa?",
+                a: "Muy poco. Un área de 2x2 metros es más que suficiente para practicar la postura, desplazamientos y golpes."
+              }
+            ]
+          },
+          cta_final: {
+            title: "¿SEGUIRÁS ADIVINANDO O EMPEZARÁS A ENTRENAR CON MÉTODO?",
+            body: "150 entrenamientos en video. 3 bonos. Acceso inmediato. Garantía de 7 días.",
+            body_end: "Todo esto empezando en solo $5.",
+            btn: "EMPEZAR AHORA →"
+          },
+          downsell: {
+            badge: "⚡ ESPERA — LEE ESTO ANTES DE IRTE",
+            title: "¿Vas a dejar que",
+            highlight: "$10 te impidan",
+            title_end: "tener acceso de por vida?",
+            subtitle: "Elegir el Premium te ahorra tener que pagar una renovación dentro de 12 meses.",
+            name: "🏆 PLAN PREMIUM COMPLETO",
+            features: [
+              "✔ 150 clases en video (vs 100 del Básico)",
+              "✔ Estructura organizada por niveles y técnicas",
+              "✔ Acceso de por vida (sin mensualidades ni vencimiento)",
+              "✔ +50 videos exclusivos avanzados de combate",
+              "✔ Los 3 bonos incluidos"
+            ],
+            old_price: "Precio Regular: $15",
+            new_price: "Solo por hoy: $9.90",
+            note: "pago único — disponible únicamente ahora",
+            btn: "¡SÍ! MEJORAR A PREMIUM POR $9.90 →",
+            recuse: "No, prefiero mantener el Básico por $5"
+          }
+        }
+      };
+
+      // State Management
+      let currentLang = 'es';
+      let isHomeEdition = false;
+
+      // Check URL Parameter (?v=casa)
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('v') === 'casa') {
+        isHomeEdition = true;
+      }
+
+      // Translation helper function
+      function t(path) {
+        const keys = path.split('.');
+        const langData = translations[currentLang];
+        
+        let parent = langData;
+        for (let i = 0; i < keys.length - 1; i++) {
+          if (!parent[keys[i]]) return path;
+          parent = parent[keys[i]];
+        }
+        
+        const lastKey = keys[keys.length - 1];
+        
+        if (isHomeEdition) {
+          const casaKey = lastKey + '_casa';
+          if (parent[casaKey] !== undefined) {
+            return parent[casaKey];
+          }
+        }
+        
+        return parent[lastKey] !== undefined ? parent[lastKey] : path;
+      }
+
+      // Switch language
+      function switchLang(lang) {
+        currentLang = lang;
+        
+        // Toggle active button class
+        
+        
+        
+        // Re-render strings
+        renderPage();
+      }
+
+      // Render translations to the DOM
+      function renderPage() {
+        // Hero
+        document.getElementById('lblExpires').innerText = currentLang === 'en' ? 'OFFER EXPIRES IN:' : 'LA OFERTA EXPIRA EN:';
+        
+        document.getElementById('heroBadge').innerHTML = t('hero.badge');
+        document.getElementById('heroTitle').innerHTML = t('hero.title');
+        document.getElementById('heroSub').innerText = t('hero.sub');
+        document.getElementById('heroProof').innerText = t('hero.proof');
+        document.getElementById('lblLive').innerText = currentLang === 'en' ? 'LIVE DEMO VIDEO' : 'VIDEO DEMO EN VIVO';
+        document.getElementById('lblVol').innerText = currentLang === 'en' ? 'Volume: 100%' : 'Volumen: 100%';
+        document.getElementById('btnHero').innerText = t('hero.btn');
+
+        // Hero Trust Row
+        const trustRow = t('hero.trust_row');
+        let trustHtml = '';
+        trustRow.forEach(item => {
+          trustHtml += `<span>${item}</span>`;
+        });
+        document.getElementById('heroTrustRow').innerHTML = trustHtml;
+
+        // Pain
+        document.getElementById('painTitle').innerText = t('pain.title');
+        document.getElementById('painBody').innerText = t('pain.body');
+        
+        const painItems = t('pain.items');
+        let painHtml = '';
+        painItems.forEach(item => {
+          painHtml += `<div class="pain-item">${item}</div>`;
+        });
+        document.getElementById('painList').innerHTML = painHtml;
+
+        // Solution
+        document.getElementById('solLabel').innerText = t('solution.label');
+        document.getElementById('solTitle').innerText = t('solution.title');
+        document.getElementById('solBody').innerText = t('solution.body');
+        
+        const solFeatures = t('solution.features');
+        let solHtml = '';
+        solFeatures.forEach(feat => {
+          solHtml += `
+            <div class="feature-card">
+              <div class="feature-icon">${feat.icon}</div>
+              <h3>${feat.title}</h3>
+              <p>${feat.desc}</p>
+            </div>
+          `;
+        });
+        document.getElementById('solGrid').innerHTML = solHtml;
+
+        // Includes
+        document.getElementById('includesLabel').innerText = t('includes.label');
+        document.getElementById('includesTitle').innerText = t('includes.title');
+        
+        const includesItems = t('includes.items');
+        let includesHtml = '';
+        includesItems.forEach(item => {
+          const isPremiumOnly = item.includes('(Premium Only)') || item.includes('(Solo en Premium)');
+          includesHtml += `
+            <div class="include-item ${isPremiumOnly ? 'premium-only' : ''}">
+              <span class="check">✔</span>
+              <div>${item}</div>
+            </div>
+          `;
+        });
+        document.getElementById('includesList').innerHTML = includesHtml;
+
+        // Why
+        document.getElementById('whyTitle').innerText = t('why.title');
+        
+        const whyItems = t('why.items');
+        let whyHtml = '';
+        whyItems.forEach(item => {
+          whyHtml += `
+            <div class="feature-card">
+              <div class="feature-icon">${item.icon}</div>
+              <h3>${item.title}</h3>
+              <p>${item.desc}</p>
+            </div>
+          `;
+        });
+        document.getElementById('whyGrid').innerHTML = whyHtml;
+
+        // Testimonials
+        document.getElementById('testimonialsLabel').innerText = t('testimonials.label');
+        document.getElementById('testimonialsTitle').innerText = t('testimonials.title');
+        
+        const testimonialItems = t('testimonials.items');
+        let testHtml = '';
+        testimonialItems.forEach(item => {
+          testHtml += `
+            <div class="testimonial-card">
+              <div class="stars">${item.stars}</div>
+              <p>${item.text}</p>
+              <div class="testimonial-author">${item.author}</div>
+            </div>
+          `;
+        });
+        document.getElementById('testimonialsGrid').innerHTML = testHtml;
+
+        // Bonus
+        document.getElementById('bonusBadge').innerText = t('bonus.badge');
+        document.getElementById('bonusTitle').innerText = t('bonus.title');
+        document.getElementById('bonusSubtitle').innerText = t('bonus.subtitle');
+        
+        const bonusItems = t('bonus.items');
+        let bonusHtml = '';
+        bonusItems.forEach(bonus => {
+          let bulletsHtml = '';
+          bonus.bullets.forEach(bullet => {
+            bulletsHtml += `<li>${bullet}</li>`;
+          });
+          bonusHtml += `
+            <div class="bonus-card">
+              <div class="bonus-img-placeholder">🥊</div>
+              <div class="bonus-info">
+                <div class="bonus-label">${bonus.label}</div>
+                <h3>${bonus.title}</h3>
+                <ul>${bulletsHtml}</ul>
+              </div>
+            </div>
+          `;
+        });
+        document.getElementById('bonusGrid').innerHTML = bonusHtml;
+
+        // Plans
+        document.getElementById('plansLabel').innerText = t('plans.label');
+        document.getElementById('plansTitle').innerText = t('plans.title');
+        document.getElementById('plansSubtitle').innerText = t('plans.subtitle');
+        
+        // Basic Plan
+        document.getElementById('plansBasicBadge').innerText = t('plans.basic.badge');
+        document.getElementById('plansBasicName').innerText = t('plans.basic.name');
+        document.getElementById('plansBasicPrice').innerText = t('plans.basic.price');
+        document.getElementById('plansBasicNote').innerText = t('plans.basic.note');
+        
+        const basicFeatures = t('plans.basic.features');
+        let basicFeaturesHtml = '';
+        basicFeatures.forEach(feat => {
+          const isCrossed = feat.startsWith('<span>❌') || feat.startsWith('✗');
+          basicFeaturesHtml += `<li class="${isCrossed ? 'plan-no' : ''}">${feat}</li>`;
+        });
+        document.getElementById('plansBasicFeatures').innerHTML = basicFeaturesHtml;
+        document.getElementById('btnPlansBasic').innerText = t('plans.basic.btn');
+
+        // Premium Plan
+        document.getElementById('plansPremiumBadge').innerText = t('plans.premium.badge');
+        document.getElementById('plansPremiumName').innerText = t('plans.premium.name');
+        document.getElementById('plansPremiumPrice').innerText = t('plans.premium.price');
+        document.getElementById('plansPremiumNote').innerText = t('plans.premium.note');
+        
+        const premiumFeatures = t('plans.premium.features');
+        let premiumFeaturesHtml = '';
+        premiumFeatures.forEach(feat => {
+          premiumFeaturesHtml += `<li>${feat}</li>`;
+        });
+        document.getElementById('plansPremiumFeatures').innerHTML = premiumFeaturesHtml;
+        document.getElementById('lblPremiumEconomy').innerText = currentLang === 'en' ? '💡 Save more by securing lifetime access today' : '💡 Ahorra más asegurando tu acceso vitalicio hoy';
+        document.getElementById('btnPlansPremium').innerText = t('plans.premium.btn');
+        document.getElementById('plansAnchor').innerHTML = t('plans.anchor');
+        document.getElementById('plansUrgency').innerText = t('plans.urgency');
+
+        // Guarantee
+        document.getElementById('guaranteeTitle').innerText = t('guarantee.title');
+        document.getElementById('guaranteeBody').innerText = t('guarantee.body');
+
+        // FAQ
+        document.getElementById('faqTitle').innerText = t('faq.title');
+        const faqItems = t('faq.items');
+        let faqHtml = '';
+        faqItems.forEach(item => {
+          faqHtml += `
+            <details class="faq-item">
+              <summary>${item.q}</summary>
+              <p>${item.a}</p>
+            </details>
+          `;
+        });
+        document.getElementById('faqList').innerHTML = faqHtml;
+
+        // Reapply toggle events to Accordion
+        document.querySelectorAll('.faq-item').forEach(details => {
+          details.addEventListener('toggle', () => {
+            if (details.open) {
+              document.querySelectorAll('.faq-item[open]').forEach(other => {
+                if (other !== details) other.removeAttribute('open');
+              });
+            }
+          });
+        });
+
+        // Final CTA
+        document.getElementById('ctaFinalTitle').innerText = t('cta_final.title');
+        document.getElementById('ctaFinalBody').innerText = t('cta_final.body');
+        document.getElementById('ctaFinalBodyEnd').innerText = t('cta_final.body_end');
+        document.getElementById('btnCtaFinal').innerText = t('cta_final.btn');
+        document.getElementById('lblTrust1').innerText = currentLang === 'en' ? '🔒 Secure Checkout' : '🔒 Pago Seguro';
+        document.getElementById('lblTrust2').innerText = currentLang === 'en' ? '📱 Instant Access' : '📱 Acceso Instantáneo';
+        document.getElementById('lblTrust3').innerText = currentLang === 'en' ? '🛡️ 7-Day Refund' : '🛡️ 7 Días de Garantía';
+        document.getElementById('lblFooterDisclaimer').innerText = currentLang === 'en' ? 'This product is digital and delivered via email. Results may vary depending on individual commitment and practice.' : 'Este producto es digital y se entrega por correo electrónico. Los resultados pueden variar de acuerdo a la dedicación y práctica individual.';
+
+        // Popup Downsell
+        document.getElementById('popupBadge').innerText = t('downsell.badge');
+        document.getElementById('popupTitle').innerText = t('downsell.title');
+        document.getElementById('popupHighlight').innerText = t('downsell.highlight');
+        document.getElementById('popupTitleEnd').innerText = t('downsell.title_end');
+        document.getElementById('popupSubtitle').innerText = t('downsell.subtitle');
+        document.getElementById('popupOfferName').innerText = t('downsell.name');
+        
+        const popupFeats = t('downsell.features');
+        let popupFeatsHtml = '';
+        popupFeats.forEach(feat => {
+          popupFeatsHtml += `<li>${feat}</li>`;
+        });
+        document.getElementById('popupFeatures').innerHTML = popupFeatsHtml;
+        document.getElementById('popupOldPrice').innerText = t('downsell.old_price');
+        document.getElementById('popupNewPrice').innerText = t('downsell.new_price');
+        document.getElementById('popupPriceNote').innerText = t('downsell.note');
+        document.getElementById('btnPopup').innerText = t('downsell.btn');
+        document.getElementById('popupRecuse').innerText = t('downsell.recuse');
+      }
+
+      // Checkout Redirection URL generator
+      function handleCheckout(type) {
+        if (type === 'basic') {
+          // Show popup instead of immediate checkout
+          document.getElementById('popupDownsell').style.display = 'flex';
+          return;
+        }
+
+        let url = '';
+        const currentVariant = isHomeEdition ? 'casa' : 'default';
+        if (type === 'premium') {
+          url = `https://checkout.boxingpro.com/premium?lang=${currentLang}&v=${currentVariant}`;
+        } else if (type === 'downsell') {
+          url = `https://checkout.boxingpro.com/premium-discount?lang=${currentLang}&v=${currentVariant}`;
+        } else if (type === 'basic-confirmed') {
+          url = `https://checkout.boxingpro.com/basic?lang=${currentLang}&v=${currentVariant}`;
+        }
+        
+        // Open Checkout in a new window or redirect
+        window.location.href = url;
+      }
+
+      function closePopup() {
+        document.getElementById('popupDownsell').style.display = 'none';
+      }
+
+      // Countdown Timer
+      let timeRemaining = 29 * 60 + 58;
+      const timerElement = document.getElementById('stickyTimer');
+      setInterval(() => {
+        if (timeRemaining <= 0) {
+          timeRemaining = 29 * 60 + 58; // reset/loop
+        } else {
+          timeRemaining--;
+        }
+        const m = Math.floor(timeRemaining / 60).toString().padStart(2, '0');
+        const s = (timeRemaining % 60).toString().padStart(2, '0');
+        timerElement.innerText = `${m}:${s}`;
+      }, 1000);
+
+      // Initial Render
+      renderPage();
+    </script>
+  </body>
+</html>
