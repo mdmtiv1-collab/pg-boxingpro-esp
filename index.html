@@ -559,28 +559,14 @@
         box-shadow: 5px 5px 0 var(--black);
       }
 
-      .bonus-img-placeholder {
+      .bonus-image {
         flex-shrink: 0;
-        width: 100px;
-        height: 100px;
-        background-color: #eaeaea;
-        border: 2px dashed #cccccc;
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+        border: 2px solid var(--black);
         border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 26px;
-      }
-
-      .bonus-img-placeholder::after {
-        content: "🎁 Bonus";
-        font-size: 11px;
-        font-weight: 700;
-        color: #888888;
-        margin-top: 4px;
-        font-family: "Oswald", sans-serif;
-        text-transform: uppercase;
+        box-shadow: 3px 3px 0 var(--black);
       }
 
       .bonus-info {
@@ -1101,10 +1087,9 @@
           text-align: center;
         }
 
-        .bonus-img-placeholder {
-          width: 80px;
-          height: 80px;
-          font-size: 22px;
+        .bonus-image {
+          width: 130px;
+          height: 130px;
         }
 
         .popup-offer {
@@ -2152,14 +2137,15 @@
         
         const bonusItems = t('bonus.items');
         let bonusHtml = '';
-        bonusItems.forEach(bonus => {
+        bonusItems.forEach((bonus, index) => {
           let bulletsHtml = '';
           bonus.bullets.forEach(bullet => {
             bulletsHtml += `<li>${bullet}</li>`;
           });
+          const imgFilename = `bonus${index + 1}.jpg`;
           bonusHtml += `
             <div class="bonus-card">
-              <div class="bonus-img-placeholder">🥊</div>
+              <img src="${imgFilename}" class="bonus-image" alt="${bonus.title}" />
               <div class="bonus-info">
                 <div class="bonus-label">${bonus.label}</div>
                 <h3>${bonus.title}</h3>
