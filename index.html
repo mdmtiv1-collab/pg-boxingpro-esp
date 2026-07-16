@@ -302,6 +302,7 @@
       .vsl-image {
         width: 100%;
         max-width: 720px;
+        aspect-ratio: 1 / 1;
         height: auto;
         display: block;
         margin: 0 auto 24px;
@@ -563,6 +564,7 @@
         flex-shrink: 0;
         width: 110px;
         height: 110px;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
         border: 2px solid var(--black);
         border-radius: 8px;
@@ -1133,16 +1135,16 @@
 
         <div class="hero-social-proof">
           <div class="avatars">
-            <img src="https://i.pravatar.cc/36?img=11" alt="avatar" />
-            <img src="https://i.pravatar.cc/36?img=22" alt="avatar" />
-            <img src="https://i.pravatar.cc/36?img=33" alt="avatar" />
-            <img src="https://i.pravatar.cc/36?img=44" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=11" width="36" height="36" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=22" width="36" height="36" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=33" width="36" height="36" alt="avatar" />
+            <img src="https://i.pravatar.cc/36?img=44" width="36" height="36" alt="avatar" />
           </div>
           <span id="heroProof">★★★★★ +2,000 people are already training with this program</span>
         </div>
 
         <!-- VSL Mockup Image -->
-        <img src="mockup.jpg" class="vsl-image" onclick="handleCheckout('premium')" alt="Boxing Pro Bundle" />
+        <img src="mockup.jpg" class="vsl-image" width="1024" height="1024" fetchpriority="high" onclick="handleCheckout('premium')" alt="Boxing Pro Bundle" />
 
         <a href="#planos" class="btn-cta" id="btnHero">
           GET INSTANT ACCESS NOW →
@@ -2145,7 +2147,7 @@
           const imgFilename = `bonus${index + 1}.jpg`;
           bonusHtml += `
             <div class="bonus-card">
-              <img src="${imgFilename}" class="bonus-image" alt="${bonus.title}" />
+              <img src="${imgFilename}" class="bonus-image" width="110" height="110" loading="lazy" alt="${bonus.title}" />
               <div class="bonus-info">
                 <div class="bonus-label">${bonus.label}</div>
                 <h3>${bonus.title}</h3>
